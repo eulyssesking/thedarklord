@@ -25,5 +25,15 @@ if _G.Thedarklord == true then
     game:GetService("ReplicatedStorage").Remotes.Bench:FireServer()
     game:GetService("ReplicatedStorage").Remotes.Bench:FireServer()
     game:GetService("ReplicatedStorage").Remotes.Bench:FireServer()
+    game:GetService("ReplicatedStorage").Remotes.Bench:FireServer()
+    game:GetService("ReplicatedStorage").Remotes.Bench:FireServer()
+    game:GetService("ReplicatedStorage").Remotes.Bench:FireServer()
+    game:GetService("ReplicatedStorage").Remotes.Bench:FireServer()
+    game:GetService("ReplicatedStorage").Remotes.Bench:FireServer()
+    game:GetService("ReplicatedStorage").Remotes.Bench:FireServer()
+    game:GetService("ReplicatedStorage").Remotes.Bench:FireServer()
+    game:GetService("ReplicatedStorage").Remotes.Bench:FireServer()
+    game:GetService("ReplicatedStorage").Remotes.Bench:FireServer()
+    game:GetService("ReplicatedStorage").Remotes.Bench:FireServer()
     end
     end
