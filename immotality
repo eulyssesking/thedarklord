@@ -1,0 +1,10 @@
+_G.Thedarklord = true
+while wait() do
+    if _G.Thedarklord == false them
+        return
+end
+if _G.Thedarklord == true them
+    game:GetService("ReplicatedStorage").Remotes.Bench:FireServer()
+    game:GetService("ReplicatedStorage").Remotes.Bench:FireServer()
+    end
+    end
