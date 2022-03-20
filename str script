@@ -5,5 +5,10 @@ while wait() do
 end
 if _G.Thedarklord == true then
  game:GetService("ReplicatedStorage").Remotes.JumpKick:FireServer()
+ game:GetService("ReplicatedStorage").Remotes.JumpKick:FireServer()
+ game:GetService("ReplicatedStorage").Remotes.JumpKick:FireServer()
+ game:GetService("ReplicatedStorage").Remotes.JumpKick:FireServer()
+ game:GetService("ReplicatedStorage").Remotes.JumpKick:FireServer()
+ game:GetService("ReplicatedStorage").Remotes.JumpKick:FireServer()
  end
  end
