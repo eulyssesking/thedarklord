@@ -1,9 +1,0 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-    local Window = Library.CreateLib("Eulyssesking's(Cobra Kai)", "Sentinel")
-    local Main = Window:NewTab("Main")
-    local MainSection = Main:NewSection("Bags")
-    MainSection:NewToggle("Stay on bag", "tp you on the top of the bag", function(v)
-        getgenv().autoredbag = v
-       while true do
-           if not
-getgenv().autoredbag then return end
