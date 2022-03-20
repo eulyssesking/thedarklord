@@ -4,12 +4,6 @@ while wait() do
         return
 end
 if _G.Thedarklord == true then
- local Event = game:GetService("ReplicatedStorage").Remotes.DoubleRegEvent:FireServer()
- local Event = game:GetService("ReplicatedStorage").Remotes.DoubleRegEvent:FireServer()
- local Event = game:GetService("ReplicatedStorage").Remotes.DoubleRegEvent:FireServer()
- local Event = game:GetService("ReplicatedStorage").Remotes.DoubleRegEvent:FireServer()
- local Event = game:GetService("ReplicatedStorage").Remotes.DoubleRegEvent:FireServer()
- local Event = game:GetService("ReplicatedStorage").Remotes.DoubleRegEvent:FireServer()
- local Event = game:GetService("ReplicatedStorage").Remotes.DoubleRegEvent:FireServer()
+ game:GetService("ReplicatedStorage").Remotes.JumpKick:FireServer()
  end
  end
