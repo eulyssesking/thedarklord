@@ -1,0 +1,84 @@
+if game.PlaceId == 6206893534 then
+    local Library =                              loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("Eulyssesking’s Hub(Cobra Kai)", "Sentinel")
+    local Main = Window:NewTab("Main")
+    local MainSection = Main:NewSection("Bags")
+    MainSection:NewToggle("Stay on bag", "tp you on the top of the bag", function(v)
+        getgenv().autoredbag = v
+       while true do
+           if not
+getgenv().autoredbag then return end
+ 
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(56.3307877, 9.82232189, -27.4355011, 0.0140739493, -6.54082868e-08, 0.999900937, 4.88122112e-08, 1, 6.47277147e-08, -0.999900937, 4.78963997e-08, 0.0140739493)
+            wait()
+        end
+    end)   
+    local MainSection = Main:NewSection("Strength")
+MainSection:NewToggle("DoubleKick", "Spam your strength", function(v)
+       getgenv().autostrength = v
+       while true do
+           if not getgenv().autostrength then return end
+            local Event = game:GetService("ReplicatedStorage").Remotes.DoubleReg
+            Event:FireServer()
+            wait()
+       end
+    end)
+MainSection:NewToggle("HandKick", "Spam your strength", function(v)
+      getgenv().handkick = v
+      while true do
+          if not
+getgenv().handkick then return end
+            local Event = game:GetService("ReplicatedStorage").Remotes.HandKick:FireServer()
+            wait()
+       end
+    end)
+MainSection:NewToggle("Dumbell", "Fast lift", function(v)
+      getgenv().autodumbell = v
+      while true do
+          if not getgenv().autodumbell then return end
+          local A_1 = "Rep"
+          local A_2 = 2
+          local Event = game:GetService("ReplicatedStorage").Remotes.Dumbell
+          Event:FireServer(A_1, A_2)
+            wait(1)
+       end
+    end)
+    local MainSection = Main:NewSection("Health")
+MainSection:NewToggle("Bench", "Spam Health", function(v)
+      getgenv().autobench = v
+      while true do
+          if not getgenv().autobench then return end
+          local Event = game:GetService("ReplicatedStorage").Remotes.Bench
+          Event:FireServer()
+            wait()
+       end
+    end)
+    local MainSection = Main:NewSection("Extra")
+MainSection:NewToggle("Pushup", "Auto Pushup", function(v)
+      getgenv.autopushup = v
+      while true do
+          if not
+getgenv().autopushup then return end
+          local Event = game:GetService("ReplicatedStorage").Remotes.PushUp
+          Event:FireServer()
+            wait()
+       end
+    end)
+MainSection:NewToggle("SitUp", "Auto SitUp", function(v)
+      getgenv.autositup = v
+      while true do
+          if not getgenv().autositup then return end
+          local Event = game:GetService("ReplicatedStorage").Remotes.SitUp
+          Event:FireServer()
+            wait()
+       end
+    end)
+    local MainSection = Main:NewSection("Go to More Section")
+    local MainSection = Main:NewSection("To execute more scripts")
+    local MainSection = Main:NewSection("Made By Eulyssesking")
+    local Credits = Window:NewTab("Credits")
+    local CreditsSection = Credits:NewSection("Made By Eulyssesking")
+    local CreditsSection = Credits:NewSection("Inspired By")
+    CreditsSection:NewLabel("haha_noobme")
+    CreditsSection:NewLabel("Cryptic_Jayzzer")
+end
