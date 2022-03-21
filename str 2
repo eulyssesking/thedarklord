@@ -8,5 +8,9 @@ if _G.Thedarklord == true then
 Event:FireServer()
     local Event = game:GetService("ReplicatedStorage").Remotes.DoubleReg
 Event:FireServer()
+    local Event = game:GetService("ReplicatedStorage").Remotes.DoubleReg
+Event:FireServer()
+    local Event = game:GetService("ReplicatedStorage").Remotes.DoubleReg
+Event:FireServer()
 end
 end
