@@ -1,0 +1,12 @@
+_G.Thedarklord = true
+while wait() do
+    if _G.Thedarklord == false then
+        return
+end
+if _G.Thedarklord == true then
+    local Event = game:GetService("ReplicatedStorage").Remotes.DoubleReg
+Event:FireServer()
+    local Event = game:GetService("ReplicatedStorage").Remotes.DoubleReg
+Event:FireServer()
+end
+end
