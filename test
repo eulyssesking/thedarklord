@@ -5,5 +5,7 @@ while wait() do
 end
 if _G.Thedarklord == true then
     local Event = game:GetService("ReplicatedStorage").Remotes.BenchEvent:FireServer()
+    local Event = game:GetService("ReplicatedStorage").Remotes.BenchEvent:FireServer()
+    local Event = game:GetService("ReplicatedStorage").Remotes.BenchEvent:FireServer()
 end
 end
