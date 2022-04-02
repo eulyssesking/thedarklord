@@ -1,9 +1,9 @@
 _G.Thedarklord = true
 while wait() do
-    if _G.Thedarklord == false then
+    if _G.Thedarklord = false then
         return
 end
-    if _G.Thedarklord == true then
+    if _G.Thedarklord = true do
 Player.Humanoid.Health == max
    wait()
 end
