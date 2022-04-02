@@ -8,4 +8,6 @@ local character = player.Character
 
 function pressed ()
 	local FF = Instance.new("ForceField", character)
+
+invulnButton.MouseButton1Click:Connect(pressed)
 end
