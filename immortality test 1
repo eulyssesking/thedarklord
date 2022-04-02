@@ -4,10 +4,6 @@ while wait() do
         return
 end
     if _G.Thedarklord == true then
-local character = eulyssesking3.Character
-
-function pressed ()
-	local FF = Instance.new("ForceField", character)
-
-invulnButton.MouseButton1Click:Connect(pressed)
+Player.Humanoid.Health == max
+   wait()
 end
