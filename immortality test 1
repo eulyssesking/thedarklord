@@ -4,7 +4,7 @@ while wait() do
         return
 end
     if _G.Thedarklord == true then
-local character = player.Character
+local character = eulyssesking3.Character
 
 function pressed ()
 	local FF = Instance.new("ForceField", character)
