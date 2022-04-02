@@ -1,0 +1,11 @@
+_G.Thedarklord = true
+while wait() do
+    if _G.Thedarklord == false then
+        return
+end
+    if _G.Thedarklord == true then
+local character = player.Character
+
+function pressed ()
+	local FF = Instance.new("ForceField", character)
+end
