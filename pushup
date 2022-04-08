@@ -4,6 +4,6 @@ while wait() do
         return
 end
 if _G.Thedarklord == true then
-    game:GetService("ReplicatedStorage").Remotes.Pushup:FireServer()
+    game:GetService("ReplicatedStorage").Remotes.Push-Up:FireServer()
     end
     end
