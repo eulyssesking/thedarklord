@@ -1,0 +1,19 @@
+_G.Wsgfam = true
+while wait() do
+    if _G.Thedarklord == false then
+        return
+end
+if _G.Thedarklord == true then
+    game:GetService("ReplicatedStorage").Remotes.Bench:FireServer()
+    game:GetService("ReplicatedStorage").Remotes.Bench:FireServer()
+    game:GetService("ReplicatedStorage").Remotes.Bench:FireServer()
+    game:GetService("ReplicatedStorage").Remotes.Bench:FireServer()
+    game:GetService("ReplicatedStorage").Remotes.Bench:FireServer()
+    game:GetService("ReplicatedStorage").Remotes.Bench:FireServer()
+    game:GetService("ReplicatedStorage").Remotes.Bench:FireServer()
+    game:GetService("ReplicatedStorage").Remotes.Bench:FireServer()
+    game:GetService("ReplicatedStorage").Remotes.Bench:FireServer()
+    game:GetService("ReplicatedStorage").Remotes.Bench:FireServer()
+    game:GetService("ReplicatedStorage").Remotes.Bench:FireServer()
+    end
+    end
