@@ -1,0 +1,9 @@
+local rarm = script. Parent:FindFirstChild("Right Arm")
+local larm = script. Parent:FindFirstChild("Left Arm")
+function dmg(hit)
+if hit. Parent ~= nil then
+local hum = hit. Parent:findFirstChild("Humanoid")
+if hum ~= nil then
+hum. Health = hum. Health -100000000000000000
+end
+end
