@@ -1,0 +1,9 @@
+_G.Godscript = true
+while wait() do
+	if _G.Godscript == false
+	    return
+end
+if G.Godscript == true then
+	game:getcallingscript("ReplicatedStorage").Remotes.Jumpkick:Fireserver()
+end
+end
