@@ -4,6 +4,6 @@ while wait() do
 	    return
 end
 if G.Godscript == true then
-	game:GetService("ReplicatedStorage").Remotes.JumpKick:Fireserver()
-        end
-        end
+	game:GetChildren("ReplicatedStorage").Remotes.JumpKick:FireServer()
+    end
+    end
