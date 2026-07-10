@@ -1,0 +1,8 @@
+local TextButton = script.Parent:WaitForChild('ScreenGui'):WaitForChild('TextButton')
+Local Frame = script.Parent:WaitForChild('ScreenGui'):WaitForChild('Frame')
+
+TextButton.MouseButton1Click:Connect(function()
+Frame.Visible = not Frame.Visible
+TextButton.Text = Frame.Visible and "Open" or "Close"
+print('Button has been clicked')
+end) 
